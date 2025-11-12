@@ -1,9 +1,7 @@
 /**
  * @file mkigor_BMI160.cpp
- * @author your name (you@domain.com)
  * @brief Short Atdruino library for BMI160 6-axis IMU sensor with minimum functionality to read Gyro and Accel data
- * @version 1.0
- * @date 2025-11-12
+ * @author Igor Mkprog (mkprogigor@g.com)	@version 1.0	@date 2025-11-12
  * 
  * @remarks	Glossary, abbreviations used in the module. Name has small or capital letters ("camelCase"),
  * 	and consist only 2 or 1 symbol '_', that divide it in => prefix + name + suffix.
@@ -230,4 +228,4 @@ void cl_BMI160::init() {
 	writeReg(0x77, 0xC0);	//	offset enable
 }
 
-//==========================================================================
+//EOF==========================================================================

@@ -10,7 +10,6 @@ Example of use:<BR>
 ```c++
 if	(cl_bmi.check(0x69) != 0xD1) {
 		Serial.println("BMI160 not found at address 0x69. Check connections.");
-		delay(3000);	return;
 }
 ```
 <BR>
